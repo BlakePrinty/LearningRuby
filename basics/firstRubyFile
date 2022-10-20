@@ -1,0 +1,63 @@
+=begin
+Multi
+Line
+Comment
+=end
+
+# Singe line comment
+
+#Assigning a varable and printing out its value
+testVar = "test"
+puts testVar
+
+
+# Declaring constant variables (Cannot be changed)
+ConstVar = "constant"
+puts ConstVar
+
+# Inserting a varable in the middle of a string
+myName = "Blake"
+myAge = 20
+
+puts "My name is #{myName} and I am #{myAge} years old."
+
+# Doing some math
+x = 5
+y = 2
+
+puts x + y
+puts x * y
+puts x / y # Does integer division
+puts x - y
+puts x % y
+puts x ** y
+puts x += y
+puts x -= y
+puts x *= y
+puts x /= y
+puts x %= y
+puts x **= y
+
+# Multiple assignments
+a, b, c = 1, 2, 3
+
+puts a + b + c
+
+# Strings
+text = 'Ruby\'s syntax is so fun'
+puts text
+
+helloWorld = "Hello \nWorld"
+puts helloWorld
+
+d = 15
+e = 3
+result = "The result is #{d/e}"
+puts result
+
+
+
+
+
+
+

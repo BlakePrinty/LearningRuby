@@ -1,8 +1,0 @@
-testVar = "test"
-
-puts testVar
-
-testVar += "ing"
-
-puts testVar
-
