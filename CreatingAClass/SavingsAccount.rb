@@ -1,21 +1,10 @@
 class SavingsAccount
+    attr_accessor :balance, :accountNum, :interestRate
 
     def initialize(balance, accountNum, interestRate)
         @balance = balance
         @accountNum = accountNum
         @interestRate = interestRate
-    end
-
-    def getBalance
-        return @balance
-    end
-
-    def getAccountNum
-        return @accountNum
-    end
-
-    def getRate
-        return @interestRate
     end
 
     def deposit(amount)
@@ -45,7 +34,7 @@ firstAccount.deposit(25)
 firstAccount.withdraw(120)
 firstAccount.accrueInterest
 
-puts "Balance: #{firstAccount.getBalance}"
-puts "Account Number: #{firstAccount.getAccountNum}"
-puts "Interest Rate: #{firstAccount.getRate}"
+puts "Balance: #{firstAccount.balance}"
+puts "Account Number: #{firstAccount.accountNum}"
+puts "Interest Rate: #{firstAccount.interestRate}"
 
