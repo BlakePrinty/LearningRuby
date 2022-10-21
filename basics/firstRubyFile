@@ -55,6 +55,81 @@ e = 3
 result = "The result is #{d/e}"
 puts result
 
+# Booleans
+
+isOnline = true
+userIsAdmin = false
+knownUsers = nil
+
+puts knownUsers
+puts isOnline
+
+# Comparison
+firstVar = 5
+secondVar = 8
+puts firstVar == secondVar
+puts firstVar != 5
+
+# If statements
+
+numOne = 42
+if numOne > 10
+    puts "Big Number"
+end
+
+# Nested if
+numTwo = 8
+if numTwo > 4
+    puts "4"
+    if numTwo < 7
+        puts "7"
+        if numTwo == 8
+            puts "8"
+        end
+    end
+end
+
+grade = 83
+
+if grade >= 70
+    puts "Passed!"
+else
+    puts "Failed!"
+end
+# else if ==> elsif
+
+x = 5
+unless x < 8
+    x += 3
+else x += 2
+end
+puts x
+
+num = 8
+if num >= 5 && num <= 10
+    puts "Yes"
+end
+
+age = 18
+if age >= 18 || age <= 30
+    puts "Welcome"
+end
+
+a = 5
+if a > 6 || a < 8
+    puts a/2
+else
+    puts a
+end
+
+a = 5
+if !(a > 2)
+    print("2")
+elsif !(1 + 2 == a)
+    print("3")
+else
+    print("4")
+end
 
 
 
